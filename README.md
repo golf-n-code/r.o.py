@@ -2,14 +2,15 @@
 I developed this project while taking Data Focused Python during my Masters program at Carnegie Mellon University. It utilizes the Zillow API, the U.S. Census API, and USDA CSV exports to build visualizations that illustrate the correlations between socioeconomic influences and real estate metrics across several U.S. cities with varying demographics.
 
 To setup and run the R.O.Py. program, please execute the following:
-1.	Download the provided “SectionD3_Group1_ProjectFinal_SourceCode.zip” file and extract the contents to a folder of choice.  Then, extract the “sourceCode.zip” contents to a base folder.
-2.	Watch the provided instruction video (“ROPy Tutorial.mp4”).
-3.	Ensure that that clean.py, vis.py, and unemploymentScrape.py. and chromedriver.exe remain in the base folder while the “DataFocusedPython_Group1_RAW.xlsx” file resides within the CompiledData folder.
+1.	Download the provided files in this repository to a folder of choice.  
+2.	Ensure that clean.py, vis.py, and unemploymentScrape.py. and chromedriver.exe remain in the base folder while the “RAWDATA.xlsx” file resides within the CompiledData folder.
 a.	Add driver to PATH environment (PATH variable must be extended by "{path to folder}\chromedriver.exe") or manually specify the location of the “chromedriver.exe” file in lines 26 and 54 of the unemploymentScrape.py file. 
-4.	Ensure that all libraries listed at the top of clean.py and vis.py are installed (e.g. pandas, re, matplotlib.pyplot, numpy, datetime, requests, selenium, statsmodels, sklearn, math, pylab).
-5.	Run vis.py in Spyder (via the Anaconda IDE).
+3.	Ensure that all libraries listed at the top of clean.py and vis.py are installed (e.g. pandas, re, matplotlib.pyplot, numpy, datetime, requests, selenium, statsmodels, sklearn, math, pylab).
+4.	Run vis.py in Spyder (via the Anaconda IDE).
+5.  Feel free to answer each question freely, but two examples can be found in steps 6 and 7.
+6.	Run vis.py.
 a.	Execute the commands listed in Case 1 below.
-6.	Run vis.py again.
+7.	Run vis.py again.
 a.	Execute the commands listed in Case 2 below.
 
 Question	Case 1: License User with Table Output	Case 2: Query-Level User with Plot Output
