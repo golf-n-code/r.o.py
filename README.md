@@ -6,7 +6,7 @@ To setup and run the R.O.Py. program, please execute the following:
 2.	Ensure that clean.py, vis.py, and unemploymentScrape.py. and chromedriver.exe remain in the base folder while the “RAWDATA.xlsx” file resides within the CompiledData folder.
 a.	Add driver to PATH environment (PATH variable must be extended by "{path to folder}\chromedriver.exe") or manually specify the location of the “chromedriver.exe” file in lines 26 and 54 of the unemploymentScrape.py file. 
 3.	Ensure that all libraries listed at the top of clean.py and vis.py are installed (e.g. pandas, re, matplotlib.pyplot, numpy, datetime, requests, selenium, statsmodels, sklearn, math, pylab).
-4.	Run vis.py in Spyder (via the Anaconda IDE).
+4.	Run vis.py in your desired IDE.
 5.  Feel free to answer each question freely, but two examples can be found in steps 6 and 7.
 6.	Run vis.py.
 a.	Execute the commands listed in Case 1 below.
